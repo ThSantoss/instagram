@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: none;
+    max-height: 1200px;
+}
+@media (max-width: 934px) {
+    .conteudo {
+        display: flex;
+        align-items: center;
+        
+    }
+    .nav {
+        display: flex;
+        margin: 1rem;
+        justify-content: space-between;
+    }
+    .nav li img {
+     justify-content: space-around;
+    }
+    .stores  {
+        background-color: #E5E5E5;
+        align-items: center;
+        text-align: center;
+        height: 118px;
+       }
+    .stores ul {
+        margin-top: 40px;
+        align-items: center;
+        display: flex;
+        margin: 25px;
+        gap:30px
+
+    }
+    .stores ul li {
+      margin-top: 25px ;
+    }
+
+    .stores p {
+        gap:5px;
+        margin-left: 0px auto ;
+    }
+    .publicacao {
+     display: flex;
+     align-items: center;
+     width: 612px;
+     margin: 0 144px;
+     background-color: #fff;     
+     border-color:#DBDBDB ;
+     border-width:1px ;
+     border-style: solid;
+     margin-bottom: 60px ;
+     
+    }
+    .postagem li {
+        display: flex;
+    }
+    .postagem-principal {
+    } 
+
+    .arroba {
+     display: flex;
+     margin: 10px;
+    }
+    .arroba p {
+        margin:5px;
+    }
+    .configuracao {
+        text-align: right;
+    }
+  
+    .color {
+        color: #000;
+    }
+    .curtidas {
+        display: flex;
+        margin: 10px 8px ;
+    }
+    .curtidas p {
+        margin: 0  8px;
+    } 
+    .interacao-fotos {
+        display: flex;
+    }
+    .interacao-fotos img {
+     margin: 10px 10px;
+    }
+    .footer-instagram {
+        display: none;
+    }
+   
+ }
+ @media (max-width: 613px) {
+
+
+    .conteudo {
+        display: flex;
+        
+    }
+    .nav {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .stores  {
+     background-color: #E5E5E5;
+     align-items: center;
+     text-align: center;
+     height: 121px;
+    }
+    .none {
+        display: none;
+    }
+    .stores ul {
+        align-items: center;
+        display: flex;
+        margin:  0 25px;
+        gap:30px
+
+    }
+
+    .stores p {
+        gap:5px;
+        margin-left: 0px auto ;
+    }
+
+    .publicacao {
+        display: flex;
+        margin-bottom: 60px;
+        background-color: #fff;     
+        border-color:#DBDBDB ;
+        border-width:1px ;
+        border-style: solid;
+        margin: 0  0;
+    }
+    .postagem li {
+        display: flex;
+    }
+    .postagem-principal {
+        width: 590px;
+    } 
+
+    .arroba {
+     display: flex;
+     margin: 10px;
+    }
+    .arroba p {
+        margin:5px;
+    }
+    .configuracao {
+        text-align: right;
+    }
+  
+    .color {
+        color: #000;
+    }
+    .curtidas {
+        display: flex;
+        margin: 10px 8px ;
+    }
+    .curtidas p {
+        margin: 0  8px;
+    } 
+    .interacao-fotos {
+        display: flex;
+    }
+    .interacao-fotos img {
+     margin: 10px 10px;
+    }
+    .interacao-fotos img :last-child {
+        align-items: end;
+    }
+    .footer-instagram ul {
+     display: flex; 
+     justify-content: space-around;
+     margin: 10px;
+     background-color: #E5E5E5;
+    }
+    .footer-instagram ul li {
+        margin-top: 20px;
+        align-items: center;
+    }
+ } 
